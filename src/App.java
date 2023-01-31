@@ -46,5 +46,19 @@ public class App {
         //To declare a constant we use the final keyword
 
         final float pi = 3.14F; //We add F to tell it's a float
+
+        double result = (double)1 / (double)3; //To tell 1/3 that it's a double expression we use casting 
+        System.out.println(result);
+
+        //Random
+
+        double result2 = Math.random() * 100; // Generate a random number between 0-100
+        System.out.println(Math.round(result2)); //Using roud method to round the random number
+        
+        //An other method to round with casting
+
+        int resultInt = (int) (Math.random() * 100); //Use () or it will be 0, (int of 0 is 0)
+        System.out.println(resultInt);
+
     }
 }
